@@ -1,45 +1,109 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>heegon's comedy videos</title>
-	
-	<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-NND63K0PCV"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-NND63K0PCV');
-</script>
+<html lang="en">
+
+<head>
+    <!-- Meta tags for the website -->
+    <meta charset="UTF-8">
+    <meta name="description" content="joke youtube shot video describing expectation differences between me and my wife that I found out while plannout our wedding.">
+    <meta name="keywords" content="wedding,standup,comedy,korean,japanese,english,friends">
+    <meta namme="author" content="heegon park">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS Info-->
+    <style>
+        /*common element*/
+        h1, a{
+            color: black;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        /*block level element*/
+        h1 {
+            font-size: 4em;
+            font-weight: bolder;
+            text-align: center;
+            text-decoration: none;
+            border: 5px;
+            border-color: aquamarine;
+            border-style: none;
+            padding: 5%;
+            margin: auto;
+        }
+
+        /*inline element*/
+        a{
+            text-decoration: underline;
+        }
+
+        #grid{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            text-align: center;
+            padding: 5%;
+        }
+
+        #disqus_thread{
+            padding: 5%;
+        }
+
+        article{
+            text-align: center;
+        }
+        
+    </style>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NND63K0PCV"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-NND63K0PCV');
+    </script>
+    
+    <title>heegon's wedding joke</title>
+
 </head>
+
 <body>
-	<h1>Heegon's comedy reels</h1>
-		<p>
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/-AfiPdY9QWw?autoplay=1&mute=1&controls=1&loop=1&playlist=-AfiPdY9QWw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-	</p>
-	<p>
+    <header>
+        <h1>heegon's wedding joke</h1>
+    </header>
+
+    <nav id ="grid">
+        <div><a href="2.html">so here's the joke</a></div>
+        <div><a href="3.html">how this joke created?</a></div>
+        <div><a href="4.html"> was the wedding?</a></div>
+    </nav>
+    <div>
+    <article>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/-AfiPdY9QWw?autoplay=1&mute=1&controls=1&loop=1&playlist=-AfiPdY9QWw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </article>
+    </div>
+
 		<div id="disqus_thread"></div>
-<script>
-    /**
-    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-    /*
-    var disqus_config = function () {
-    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-    };
-    */
-    (function() { // DON'T EDIT BELOW THIS LINE
-    var d = document, s = d.createElement('script');
-    s.src = 'https://weddingjoke.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-	</p>
+    <script>
+        /**
+        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+        /*
+        var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+        */
+        (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://weddingjoke.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    
+    <footer>
+        <li>Other SNS</li>
+    </footer>
 </body>
 </html>
